@@ -1,0 +1,19 @@
+{
+  "name": "dm-marionette-survey",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kucharskimaciej/dm-marionette-survey.git"
+  },
+  "author": "Maciej Kucharski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kucharskimaciej/dm-marionette-survey/issues"
+  },
+  "homepage": "https://github.com/kucharskimaciej/dm-marionette-survey"
+}
