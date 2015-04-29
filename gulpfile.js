@@ -1,3 +1,4 @@
 require('./gulp')([
-    "build"
+    "build",
+    "server"
 ]);
