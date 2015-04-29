@@ -1,1 +1,1 @@
-var App = {};
+var App = { el: 'change!'};
