@@ -3,7 +3,7 @@ var path = require('path');
 
 module.exports = function registerTasks(tasks) {
   tasks.forEach(function(task) {
-     gulp.task(task, require(path.join('./tasks', task)));
+     gulp.task(task, require(path.join(__dirname, 'tasks', task)));
   });
 };
 
