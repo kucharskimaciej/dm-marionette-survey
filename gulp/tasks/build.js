@@ -20,7 +20,7 @@ function buildVendor () {
 }
 
 function buildApp () {
-    return gulp.src(config.paths.app)
+    return gulp.src(config.paths.app, { read: false })
         .pipe(browserify({
             insertGlobals : true,
             debug : true
